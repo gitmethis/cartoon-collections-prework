@@ -41,5 +41,6 @@ def find_the_cheese(arr)# code an argument here
       end
     }
   }
-  
+
+  nil
 end
