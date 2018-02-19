@@ -4,6 +4,7 @@ def roll_call_dwarves(dwarves)# code an argument here
   dwarves.each{
     |dwarf, index|
     puts "#{index}. dwarf"
+    
   }
 end
 
