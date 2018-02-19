@@ -8,8 +8,13 @@ def roll_call_dwarves(dwarves)# code an argument here
   }
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(words)# code an argument here
   # Your code here
+  words.each!{
+    |word|
+    word = word.upcase
+  }
+  words
 end
 
 def long_planeteer_calls# code an argument here
