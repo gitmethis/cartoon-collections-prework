@@ -10,11 +10,12 @@ end
 
 def summon_captain_planet(words)# code an argument here
   # Your code here
-  words.map!{
+    result = words.each{
     |word|
-    word = word.upcase
+    word[0] = word[0].upcase
+    word[-1] += '!'
   }
-  words
+  result
 end
 
 def long_planeteer_calls(calls)# code an argument here
