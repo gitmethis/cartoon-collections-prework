@@ -10,7 +10,7 @@ end
 
 def summon_captain_planet(words)# code an argument here
   # Your code here
-  words.each!{
+  words.map!{
     |word|
     word = word.upcase
   }
