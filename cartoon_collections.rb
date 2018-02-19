@@ -39,7 +39,7 @@ def find_the_cheese(arr)# code an argument here
     cheese_types.each{
             |cheese|
       if stuff == cheese
-         return 'cheese'
+         return cheese
       end
     }
   }
